@@ -1,0 +1,39 @@
+Overall 2.5 years of experience as a Test Engineer in Automation and Manual  Testing which includes years of experience in selenium frameworks and in manual testing 
+
+frameworks - testNG, cucumber bdd and also i have exp with data driven concepts 
+tools- git- jira-jenkins, postman.
+We are following agile methodology , i have participated in many ceremonies, sprint planing meeting, review meeting , daily stand up call . 
+Also i have given some demo to the client 
+
+I have participated in designing the project framework and will update and enhance the framework functions when needed.I have created 70% of the framework , 
+
+i got to work in detail in test execution 
+will execute the test as per plan and involve in the regression testing , smoke and sanity 
+I will document test results and log defects for failed cases.
+If there is any bug, it will be reported to the dev team for the correction in the defect tracking tool Jira.
+I will co-ordinate and follow up with dev team and test team in resolving the issues
+Once the bug fixed, I will retest again 
+
+
+coming to the calls , 
+I will attend the daily agile meetings like daily scrum call.
+Apart from that, I will have demo meeting once the story or module completed. 
+I will interact with client-side people and will update the status in the daily basis
+I will maintain our code in git repository and will push the code whenever the updating the script as per test plan.
+We are using Jenkins as CICD tool, so will schedule a job and get the report once execution completed
+continios integration and continues deployment
+
+
+I can also configure the Jenkins jobs for initial setup for my project.
+
+Report:
+I will prepare daily, weekly ( sprint end report ) and monthly status reports 
+I will review and analyze the test report and based on that, will prepare the test summary report.
+Then finally I will close the Jira tickets or stories with the confirmation of team lead.
+
+
+
+
+
+
+     

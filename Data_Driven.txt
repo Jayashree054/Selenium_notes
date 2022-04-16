@@ -1,0 +1,112 @@
+Data Driven
+***********
+
+It is a Framework
+
+The operations to be performed is stored in an external file like Excel Sheet.
+
+APACHE POI: 
+
+POI: Poor Obfuscation Implementation is an API that collects java libraries and help us to Read, Write data in excel
+
+API ---> Application Programming Interface
+
+Dependencies & Versions:
+***********************
+	POI 4.1.2
+	POI-ooxml 4.1.2
+	POI OOXML-SCHEMAS 4.1.2
+
+
+
+WorkBook [Interface]
+********************
+	A workbook is represent a MICROSOFT EXCEL FILE.
+	Used for creating and maintaining the spreadsheet.
+	A workbook contains many sheets
+
+Types:
+******
+
+HSSF WorkBook [Class]
+
+		Used to Read/Write data to Microsoft Excel file in .xls format
+		MS Office Versions 97-2003
+		HSSF --> Horrible SpreadSheet Format
+
+XSSF WorkBook [Class]
+
+		Used to read/write to Microsoft Excel in xls or xlsx format.
+		MS OFFICE version 2007 or later.
+		XSSF --> XML spreadsheet format.
+
+SHEET [ Interface ]
+
+	A sheet it contains number of rows and columns.
+
+		Create Sheet --------> createSheet(name)
+		get the sheet:
+			getSheetAT(index)
+			getSheet(name)
+
+ROW [ Interface ]
+		A row represents a collection of cells which is used to represent a row in sheet.
+
+		Create Row ---------> createRow(index)
+		get the row --------> getRow(index)
+		get the size ---> getPhysicalNumberOfRows
+
+Cell [Interface]
+
+		A cell is indicates by a row and column combination.
+		Data can be in the type of String or numeric or date.
+
+			Create cell ----> createCell(index)
+			get the cell ---> getCell(index)
+			get size -------> getPhysicalNumberOfCells()
+			get type of Cell-> getCellType()
+
+
+			String ---> getStringCellValue()
+				    
+
+
+			Number ----> getNumericCellValue
+				      return type is double.
+
+
+File Input Stream: Flow of data from the source
+
+File Output Stream: Flow of data from the destination
+
+
+File ---> FIS ---> WorkBook --> Sheet --> Row --> Cell --> Celltype--> FOS
+
+
+*************************************************************************************
+
+Read Whole Data in a sheet
+**************************
+
+For loop with size
+
+getRow --> getPhysicalNumberOfCells 
+
+Inner loop with help of physical address
+
+getCell--> getStringCellValue --> print it
+
+******************************************************************************************
+Write in a Excel:
+*****************
+File ---> FIS ---> WorkBook --> Sheet Create--> Row --> Cell
+
+FOS
+
+workbook.getsheet.createrow.createcell.setcellValue
+
+********************************************************************************
+
+
+
+

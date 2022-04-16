@@ -1,0 +1,812 @@
+Experience : 2.5 Years in ......
+
+1 Year in manual
+
+1.5 Years In automation
+
+Automation Tool : Selenium along with java
+
+Suite/Component : Selenium WebDriver 
+
+POM  : Design Pattern
+
+Build Automation Tool : Maven 
+
+Project and Domain : E-Commerce
+
+Frameworks: 
+
+	Data Driven
+
+	Test NG
+
+	Cucumber BDD along with J-Unit.
+
+	SDP Pattern 
+
+Push My Code Into SCM Tool as GITHUB.
+
+Fetch the code from my GITHUB And run in CICD tool as Jenkins
+
+we are working in Agile-Scrum Methodology...
+
+Sprint Days : Two Weeks
+
+Follow : n-1  
+
+User stories from my product backlog 
+
+If i find any bug in defect tracking tool as JIRA.
+
+API Testing by using postman tool ....
+
+Rest API Basics
+
+First Project as a Functional Tester ...
+
+-----------------------------------------------------------------------------------------------------
+
+Rate yourself : 
+
+java
+
+selenium
+
+scale : 
+
+/5 :  4
+
+/10 : 8
+
+--------------------------------------------------------------------------------------------
+
+
+Project : 
+
+
+Project Name 
+
+Domain
+
+Modules 
+
+Tools 
+
+Per day Test Cases : Depends Upon Validation and Verification
+
+----------------------------------------------------------------------------------------------------------------
+
+						OOPS Concepts 
+
+Encapsulation	   Inheritance			Polymorphism			Abstraction
+
+					 Overload           Override	  partial	   fully
+
+
+POJO Class	   Utility Files	frame		      get()        By		   WebDriver	
+
+getters            base class 		implicit wait
+
+
+---------------------------------------------------------------------------------------------------------------------------
+Final						Finally					Finalize
+
+
+Keyword						Block					Method
+
+
+Three Levels					Expection Handling			Remove garbage collections
+
+
+Class ---> Can't Inheritance			Definition				System.gc();
+
+
+Method ->  Can't Override
+
+
+variable -->  can't change the value
+
+-------------------------------------------------------------------------------------------------------------------------
+
+						Collection 
+
+List						Set						Map
+
+	
+findElements()				        getWindowHandles()				setProperty()							
+
+getOptions()											Property File
+
+--------------------------------------------------------------------------------------------------------------------------
+
+						Exception
+
+
+				Compile Time				Run-Time
+
+				Interupted Exception			NoSuchElement				
+
+				FileNotFoundException			NoAlertPresent
+
+				IO Exception				NullPointerException
+
+				AWT Exception				SessionNotCreatedException
+
+									IllegalStateArgumentException
+
+									ElementNotVisible
+									
+									ElementNotInteractable
+
+									
+Abstract Class vs Interface
+
+Overload Vs Override
+
+Hashmap Vs Hash Table
+
+HashSet Vs HashMap
+
+List vs Set	
+
+Array vs ArrayList
+
+ArrayList vs Linkedlist
+
+Exception Handling
+
+Static Keyword
+
+Constructor
+
+Mutable vs Immutable
+
+StringBuffer vs String Builder
+
+Why String Immutable ?
+
+Multiple Inheritance Possible ?
+
+constant variable ( final ) 
+
+Throw vs Throws
+
+this vs super
+
+public vs protected
+
+Map
+
+== vs .equals
+
+user defined exception / Custom Exception
+
+Main Method Syntax
+
+-------------------------------------------------------------------------
+
+Try : 
+
+	Block
+
+	Throw Exception ---> Catch Block
+
+	Doesn't Throw Exception ---> Executed
+
+
+Catch:
+
+	Block
+
+	Yes we can overload 
+
+	Parameter order must be child and parent
+
+Finally :
+
+	block
+
+	Definition
+
+	System.exit(0) ;  // ---> terminate
+
+----------------------------------------------------------------------------------
+
+Programs :
+
+Reverse String
+
+Repetative Word / Occurences :
+
+Fibanoci Series
+
+Array sort ----> Arrays.sort(arrayrefName);
+
+Ascending Order / Descending Order
+
+Duplicates In Array  ----> Arrays.asList(arrayRefName);
+
+Swapping with third variable / Without Third Variable
+
+public vs protected
+
+Immutable vs mutable
+
+== vs .equals
+
+== ---> check memory reference
+
+.equals -->  Check that string value
+
+int a[] = {1,5,6,4,2,3};
+
+-----------------------------------------------------------------------------------------------
+
+
+Java 8 features : 
+
+Lamda Expressions    
+
+		Instead of using for loop 
+
+		iterative purpose ( Collection ) 
+
+
+Regex ---> Regular Expressions
+	
+		For Select the Statement ( if/else ) 
+
+-------------------------------------------------------------------------------------------
+
+
+Remove Spl Characters In String :
+
+			String s = "Steven#Smi&th49#"
+
+			s.replaceAll("[^a-zA-Z]", "");
+
+
+----------------------------------------------------------------------------------
+
+Selenium :
+
+findElement vs findElements
+
+close vs quit
+
+get vs navigate
+
+locators 
+
+most used locator 
+
+why id unique ? ---> According to W3C id = "unique value" 
+
+why xpath ?  ----> id = alpha-numeric , login_17
+
+absolute vs relative
+
+customized Xpath axes
+
+Alternative for sendKeys()
+
+alternative for click()
+
+getText vs get Attribute
+
+cssValue()
+
+frame parameters
+
+Parentframe vs default content
+
+WebPage : 
+
+
+
+Frame 1 : 
+
+		
+	Frame 2 : 
+
+	
+			Frame 3 : 
+
+				WE 3 
+
+			Frame 4 : 
+
+Dropdown
+
+Actions Class
+
+different types of wait / Synchronization
+
+syntax 
+
+JavascriptExecutor
+
+	scroll up/down
+
+	click(), sendKeys()
+
+Robot Class
+
+Windows Handling
+
+what are the exceptions you faced in your project ?
+
+Object repository : 
+
+How do you customize your browser section ?
+
+					Desired Capabilities  ( deprecated ) 
+
+					Chrome Options  
+Broken Links :
+
+Highlight a webelement
+
+
+-----------------------------------------------------------------------------------------------
+
+Maven : 
+
+
+Goals :
+
+	install
+
+	clean
+
+
+Instead of using runner class how do you run your program ?
+
+pom.xml
+
+----------------------------------------------------------------------
+
+POM : Page object model
+
+collect all those webelements and stored in a separate class
+
+@FindBy(locators="value")
+private WebElement refname;
+
+
+using PageFactory.initElements(driver,this); for initiization all those webelements in pom class
+
+
+SDP Pattern 
+
+---------------------------------------------------------------------------
+
+1. Hierarchy Level :
+
+2. priority
+
+3. grouping
+
+4. testng-failed.xml 
+
+5. Rerun --> IRetryAnalyser and IAnnotationTransformer  /  listeners 
+
+6. parrallel testing  
+
+		reduce the thread count and parrallel = "methods"
+
+7 . exclude and include
+
+8. Assert
+
+9. parameter
+
+10 . DataProvider
+
+-------------------------------------------------------------------------
+
+
+GIT
+
+Commands
+
+Merge Conflict
+
+	git checkout -b "branchname"
+
+	git merge 
+
+
+Working Dir	Local Repo          Remote Repo			Project Master
+
+eclipse		.git		    git hub			overall project in remote
+
+
+	init
+---------------->
+
+		push
+------------------------------------->
+
+
+		pull 
+<-------------------------------------
+
+	clone ( different location )
+<-------------------------------------
+
+					Remote Repo
+
+				Branch		Branch		Master
+
+				      --------->	 --------->
+
+					merge		  merge
+
+								
+  				
+fetch
+
+rebase
+
+-------------------------------------------------------------------------------------------------
+
+Jenkins :
+
+
+CICD Tool
+
+	
+Fetch the code from our GIT
+
+Time 
+
+* * * * * 
+
+--------------------------------------------------------------------------------------------
+
+Challenges :
+
+1. Timeout issue 
+
+2. Dynamic Content ---> Use customized x-path 
+
+3. pop-up window 
+
+4. Cross - Browser 
+
+5. number of tools
+
+6. Non-automable :
+
+		captcha   -->  3rd Party
+
+		bar code  
+
+		otp
+
+		bitmap comparision
+
+
+7. Test cases --->Depends upon validation and verification
+
+
+8 . JIRA ---> Depends upon priority and severity
+
+
+//tagName[@attributeName='attributeValue']
+
+text box : // input
+
+//input[@id='pass']
+
+<input id = 'email'> </input>
+
+<input id = 'pass'> </input>
+
+<a id = 'email'> </a>
+
+---------------------------------------------------------------------------------
+
+Customized X-Path
+
+Relationship/Axes
+
+preceding 					following 
+
+preceding-sibling				following-sibling
+
+parent						child
+
+ancestor					descendant
+
+
+
+<div> </div>
+
+<span> 
+
+	<span>  text </span>
+
+	<span>  retext </span>
+
+	<div>  reretext </div>
+
+	<span>  newtext </span>
+
+		<div> id = "email" </div>
+
+</span>
+
+-----------------------
+
+//span[text()='newText']//preceding-sibling::span[text()='retext']
+
+
+Customized Xpath : 
+
+
+//relativexpath//relation::relativexpath
+
+
+					Great Grand Father
+
+Grand father1			Grand father 2			Grand father 3
+
+
+father   chittapa		father   chittapa	       father   chittapa
+
+elder bro
+
+you
+
+younger sis
+
+-------------------------------------------------------------------------------------------------------
+
+For SVG Element : 
+
+SVG  : Scalable Vector Graphics
+
+
+//*[name()='svg']
+
+------------------------------------------------------------------------------------------------------
+
+popup 					Alert				Window-Based Popup 		ChromeBasedPopup
+
+
+inspect					non-inspect			non-inspect			Non-inspect
+
+
+findElement we can handle		switchTo().alert()		Auto-IT tool			ChromeOptions
+
+
+---------------------------------------------------------------------------------------------------------
+
+frame :
+
+
+frame parameters
+
+Parentframe vs default content
+
+--------------------------------------------------------------------------------------------------
+
+Dynamic WebTable :
+
+
+Collect all the headers by using Tagname as th
+
+
+--------------------------------------------------------------------------------------------------
+
+Broken Links :
+
+
+1 . List<WebElement> all_Links  = driver.findElements(By.tagName("a"));
+
+2. by using for or enhanced for loop to iterate all those links and using getAttribute("href")
+
+3. URL url = new URL(link)
+
+4. HTTPURLConnection along with url.openConnection() ( narrowing type casting)
+
+5. getResponseCode> 400 ---> broken link
+
+
+---------------------------------------------------------------------
+
+
+Cucumber : 
+
+Scenario vs Scenario Outline
+
+Feature Files Keywords
+
+Feature File language 
+
+Cucumber Options 
+
+dryRun vs strict
+
+How to generate extentreport ?
+
+Hooks and Background 
+
+
+--------------------------------------------------------------
+
+
+JDBC  :
+
+	JavaDataBaseConnectivity 
+
+
+Step 1 : 
+
+	Load mysql JDBC Driver
+
+		Class.forName("com.mysql.jdbc.Driver");
+
+
+Step 2 : Create Connection To DB
+
+
+		Connection con = DriverManager.getConnection(url, username,password);
+
+
+url = "jdbc:mysql://localhost:3036/emp";
+
+
+Step 3 : Create Statement Object
+
+		Statement s = con.createStatement();
+
+Step 4 : Execute The SQL Query
+
+query = "Select * From ;"	
+
+		ResultSet set = s.executeQuery(query);
+
+Step 5 : Close the connection
+
+		con.close();
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
